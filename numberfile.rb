@@ -3,7 +3,7 @@ load 'numberfile_helper.rb'
 
 super_hash = initialise_hash
 
-input = gets.chomp.downcase.gsub(/[^a-z\s]/, '').split ' '
+input = gets.chomp.downcase.gsub(/[^a-z\s]/, ' ').split ' '
 
 numbers = []
 
