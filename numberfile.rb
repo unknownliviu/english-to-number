@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 load 'numberfile_helper.rb'
 
 super_hash = initialise_hash
