@@ -3,7 +3,7 @@ def initialise_hash
 digits=%w[zero one two three four five six seven eight nine]
 digits_hash = Hash[digits.map.with_index.to_a]
 
-teens=%w[ten eleven twelve thirtheen fourteen fifteen sixteen seventeen eighteen nineteen]
+teens=%w[ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen]
 
 teens_hash = Hash[teens.each_with_index.map {|x, i| [x, i+10]}]
 
